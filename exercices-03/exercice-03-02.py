@@ -12,7 +12,7 @@ chocolates = 17
 friends = 3
 
 # réponse 3.2
-candies_rest = 15 - int(candies/friends) * friends
-chocolates_rest = 17 - int(chocolates/friends) * friends
+candies_rest = candies % friends
+chocolates_rest = chocolates % friends
 print(candies_rest)
 print(chocolates_rest)
