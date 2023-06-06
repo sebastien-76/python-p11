@@ -19,5 +19,4 @@ weight_beta = 100 * 0.001
 price_per_kilo_alpha = price_alpha / weight_alpha
 price_per_kilo_beta = price_beta / weight_beta
 #print(weight_alpha,weight_beta,price_per_kilo_alpha,price_per_kilo_beta)
-if price_per_kilo_alpha < price_per_kilo_beta : charly_intuition = True
-print(charly_intuition)
+print(price_per_kilo_alpha < price_per_kilo_beta)
