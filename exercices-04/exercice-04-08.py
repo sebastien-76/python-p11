@@ -19,5 +19,5 @@ aucun_mail = "il n'y a aucun mail"
 un_mail = "il y a un nouveau mail"
 plusieurs_mails = "il y a {} nouveaux mails"
 if mails == 0 : print(aucun_mail)
-elif mails == 1 : print(un_mail.format(mails))
+elif mails == 1 : print(un_mail)
 else : print(plusieurs_mails.format(mails))                     
