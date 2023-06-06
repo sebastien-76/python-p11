@@ -107,3 +107,23 @@ e = d-e
 d = d-e
 print(d)
 print(e)
+
+#permutation à l'aide de la methode pythonique
+#destructured assignment
+b, a = a, b
+
+
+#addition de float
+import decimal
+from decimal import Decimal
+
+#affiche 0.30000000000000004
+print(0.1+0.1+0.1)
+
+#affiche correctement 0.3
+print(Decimal("0.3"))
+
+#arrondi des float
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+print(Decimal("0.05").quantize(Decimal("1"))) # Decimal('1')
+print(Decimal("0.15").quantize(Decimal("0.1"))) # Decimal('2')
