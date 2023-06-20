@@ -10,3 +10,19 @@ console.log(text1 == number1);
 //comparaison d'identité
 console.log(number1 === text1);
 //renvoie false
+
+//Opérateur d'incrématation
+console.log(number1);
+
+//number1 +=1 en python
+number1++;
+console.log(number1);
+
+//l'incrémentation se fait après l'affichage
+console.log(number1++);
+console.log(number1);
+
+//l'incrémentation se fait avant l'affichage
+console.log(++number1)
+
+//idem pour -

@@ -18,4 +18,3 @@ print(b)
 if a > b : print("le nombre est a est supérieur au nombre b")
     elif a < b : print("le nombre a est inférieur au nombre b")
     else : print("les deux nombres a et b sont égaux")
-
