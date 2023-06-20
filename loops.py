@@ -40,7 +40,7 @@ for user in users:
 
 for i, user in enumerate(users):
       print(f"{i=}, {user=}")
-
+z
 
 #boucle for
 for i in range(0, len(users)):
