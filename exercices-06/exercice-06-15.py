@@ -12,6 +12,8 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 # for compteur in range(len(my_list)):
 #     liste2 = liste2 + [len(my_list[compteur])]
 # longueur = 0max(liste2)
+#print(index, valeur, longueur)
+
 # for compteur2 in range(len(liste2)):
 #     if liste2[compteur2] == longueur:
 #         index = compteur2
@@ -28,9 +30,7 @@ for i, element in enumerate(my_list):
         longueur = len(element)
         valeur = element
         index = i
-    else:
-        longueur = len(valeur)
-print(my_list)
+        
 print(index, valeur, longueur)
 
 
